@@ -7,6 +7,7 @@ body {
 .main {
   width: 100%;
   align-items: center;
+  margin: 0 auto;
 }
 
 .line {
@@ -31,11 +32,42 @@ body {
   height: 0 auto;
   margin: 90px 40px;
   border-radius: 10px;
+  padding: 5px;
+}
+
+.block {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 7px;
+  background-color: #05080d;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.image img{
+  border-radius: 10px;
+  width: 570px;
+  height: 0 auto;
+
+}
+
+.Text {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+  color: white;
+  font-size: 27px;
 }
 
 h1 {
   font-family: 'Yusei Magic', sans-serif;
   color: white;
   font-size: 50px;
+  margin: 0 auto;
 }
-s
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-size: 50px;
+}
